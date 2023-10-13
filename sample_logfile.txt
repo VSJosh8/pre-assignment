@@ -1,0 +1,8 @@
+[2023-10-13 14:52:14.767021] URL: http://www.google.com --> Accessible | Response time: 0.457992s | Required content met: True
+[2023-10-13 14:52:15.257551] URL: http://www.github.com --> Accessible | Response time: 0.34313s | Required content met: True
+[2023-10-13 14:52:16.177454] URL: http://www.nonexistentwebsite.com --> Not Accessible | An error occurred when trying to access http://www.nonexistentwebsite.com. Error details: HTTPConnectionPool(host='www.nonexistentwebsite.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000157A2250990>: Failed to resolve 'www.nonexistentwebsite.com' ([Errno 11001] getaddrinfo failed)"))
+[2023-10-13 14:52:16.246841] URL: http://www.foobar.com/login --> Not Accessible | Status code 403
+[2023-10-13 14:52:18.593327] URL: http://www.google.com --> Accessible | Response time: 0.237301s | Required content met: True
+[2023-10-13 14:52:18.861213] URL: http://www.github.com --> Accessible | Response time: 0.255084s | Required content met: True
+[2023-10-13 14:52:19.535398] URL: http://www.nonexistentwebsite.com --> Not Accessible | An error occurred when trying to access http://www.nonexistentwebsite.com. Error details: HTTPConnectionPool(host='www.nonexistentwebsite.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000157A225B0D0>: Failed to resolve 'www.nonexistentwebsite.com' ([Errno 11001] getaddrinfo failed)"))
+[2023-10-13 14:52:19.537338] URL: http://www.foobar.com/login --> Not Accessible | Status code 403

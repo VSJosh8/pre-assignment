@@ -1,0 +1,26 @@
+[
+    {
+        "url": "http://www.google.com",
+        "status": 200,
+        "response_time": 0.232091,
+        "content_met": true
+    },
+    {
+        "url": "http://www.nonexistentwebsite.com",
+        "status": 200,
+        "response_time": 0.232091,
+        "content_met": null
+    },
+    {
+        "url": "http://www.github.com/login",
+        "status": 200,
+        "response_time": 0.272259,
+        "content_met": true
+    },
+    {
+        "url": "http://www.foobar.com/login",
+        "status": 403,
+        "response_time": 0.313166,
+        "content_met": null
+    }
+]
