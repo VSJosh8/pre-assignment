@@ -19,21 +19,7 @@ pip install .
 ## Usage
 ```bash
 python run.py
-```
-
-## Requirements Satisfication
-1. URL_LIST from config.py provides the list of URLS an is parsed in web_checker.py using check_url_status()
-2. run.py uses loop to run URL_LIST from config.py provides the list of URLS an is parsed in web_checker.py using check_url_status() method to make http request to url provided in list. This request interval can be configured via config.py
-3. Webpage contents are parsed and compared with list of "required content" to verify if content requirements are met
-4. Request details are returned from URL_LIST from config.py provides the list of URLS an is parsed in web_checker.py using check_url_status() method including request status code, response time, and if content is verified
-5.  Result of http check is output into a log file and also a JSON file.
-6.  JSON file can be used for http interace to show status of each webpage via API
-Unit tests also provided test.py
-
-## Design Question
-I could propose implementing multithreading or multiprocessing which can both be implemented in a python application with their respecitve libraries. Similar to this task the IP of multiple geographically distributed locations can be pinged and their status information returned. Multithreading and multiprocessing can allow for multiple processes like these running simultaneously which can reduce the load for each instance thus maintaining performance.
-
-Data can be transfered via TLS as this is more secure that TCP. Similar to this task making HTTP/TCP request we can make TLS requests wit python.
+``'
 
 In general the security measures that would come into consideration for monitoring tools would be:
 - strong authentication and authorization mechanism
