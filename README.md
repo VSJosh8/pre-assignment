@@ -20,10 +20,3 @@ pip install .
 ```bash
 python run.py
 ``'
-
-In general the security measures that would come into consideration for monitoring tools would be:
-- strong authentication and authorization mechanism
-- role based access control
-- data protection measures (encryption, masking, etc)
-- compliance with data protection laws
-- regular updates on monitoring tool to prevent malware
